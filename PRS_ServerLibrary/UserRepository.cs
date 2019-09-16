@@ -49,8 +49,8 @@ namespace PRS_ServerLibrary {
         public static bool Delete(int id) {
             var user = context.Users.Find(id);
             if (user == null) { return false; }
-            var rc = Delete(user);
-            return rc;
+            var del = Delete(user);
+            return del;
         }
     }
 }

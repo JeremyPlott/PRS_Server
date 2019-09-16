@@ -48,8 +48,8 @@ namespace PRS_ServerLibrary {
         public static bool Delete(int id) {
             var vendor = context.Vendors.Find(id);
             if (vendor == null) { return false; }
-            var rc = Delete(vendor);
-            return rc;
+            var del = Delete(vendor);
+            return del;
         }
     }
 }
