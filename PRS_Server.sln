@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRS_Server", "PRS_Server\PR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRS_ServerLibrary", "PRS_ServerLibrary\PRS_ServerLibrary.csproj", "{0DD74411-F011-4A4A-9335-AF518DC01B69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRS_WebApi", "PRS_WebApi\PRS_WebApi.csproj", "{E2A32E9E-A6A2-4AF6-927F-E618B02C8323}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0DD74411-F011-4A4A-9335-AF518DC01B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DD74411-F011-4A4A-9335-AF518DC01B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DD74411-F011-4A4A-9335-AF518DC01B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A32E9E-A6A2-4AF6-927F-E618B02C8323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A32E9E-A6A2-4AF6-927F-E618B02C8323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A32E9E-A6A2-4AF6-927F-E618B02C8323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A32E9E-A6A2-4AF6-927F-E618B02C8323}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
